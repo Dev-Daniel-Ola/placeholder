@@ -10,7 +10,7 @@
     align-items: center;
     background-color: grey;
     height: 1000px;
-    width: 800px;
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 .box_container{
@@ -67,4 +67,22 @@ img{
 }
 .follow a{
     color: black;
+}
+@media (max-width: 400px){
+    .container{
+        width: 80%;
+    }
+    .box_container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .box_container{
+        font-size: 16px;
+    }
 }
